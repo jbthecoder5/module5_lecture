@@ -11,7 +11,8 @@ let todoItems = [
   { _id: 2, task: "Learn about Express" }
 ];
 
-// The 4 CRUD operations for this Task App (Create, Read, Update, Delete) ->  (POST, GET, PAPTCH, DELETE)
+// The 4 CRUD operations for this Task App (Create, Read, Update, Delete) 
+// (POST, GET, PAPTCH, DELETE)
 
 // GET (Read All Tasks)
 app.get("/api/todos", (req, res) => {
