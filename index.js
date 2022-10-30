@@ -1,4 +1,5 @@
 const express = require("express");
+// connectiong mongodb
 
 const app = express();
 
